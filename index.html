@@ -11,8 +11,8 @@
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
     
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" crossorigin="crossorigin" as="font">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway&display=swap&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
@@ -21,80 +21,149 @@
     <header class="header">
         <div class="container">
             <div class="container__text">
-                <a href="#"><h1>Twenty One Pilots Store</h1></a>
+                <a href="#"><h1 class="txt-shdw">Twenty Store</h1></a>
             </div>
             <div class="container__nav">
                 <nav class="nav">
                     <a href="#" class="nav__link">Store</a>
-                    <a href="#" class="nav__link">Blog</a>
-                    <a href="#" class="nav__link">About Us</a>
+                    <a href="https://www.twentyonepilots.com/" class="nav__link">Official Web</a>
+                    <a href="about-us.html" class="nav__link">About Us</a>
                 </nav>
             </div>
         </div>
     </header>
     <section class="hero">
         <div class="hero__content">
-            <div class="hero__info txt-shdw">
-                <h2>Bienvenido a Twenty One Pilots Store</h2>
-                <p>La mejor tienda de productos originales de TOP</p>
+            <div class="hero__image">
+                <div class="hero__info txt-shdw">
+                    <h2>Bienvenido a Twenty Store</h2>
+                    <p>La mejor tienda de productos originales de TOP</p>
+                </div>
             </div>
         </div>
     </section>
-    <main class="main">
-        <h2 class="main__titulo">Productos de oferta</h2>
-        <div class="grid">
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 1</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_1.jpg" alt="imagen de producto">
-                    <h4>Hoodie</h4>
-                    <p>$1350</p>
-                </article>
-            </section> <!-- .producto -->
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 2</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_2.jpg" alt="imagen de producto">
-                    <h4>Zapatilla</h4>
-                    <p>$500</p>
-                </article>
-            </section> <!-- .producto -->
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 3</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_3.jpg" alt="imagen de producto">
-                    <h4>Gorra de lana</h4>
-                    <p>$350</p>
-                </article>
-            </section> <!-- .producto -->
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 4</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_4.jpg" alt="imagen de producto">
-                    <h4>Almohada</h4>
-                    <p>$150</p>
-                </article>
-            </section> <!-- .producto -->
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 5</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_5.webp" alt="imagen de producto"">
-                    <h4>Buzo</h4>
-                    <p>$1550</p>
-                </article>
-            </section> <!-- .producto -->
-            <section class="producto">
-                <h3 class="producto__titulo">Producto 6</h3>
-                <article class="producto__info">
-                    <img class="img-shdw" src="img/product_6.png" alt="imagen de producto">
-                    <h4>Vinilo</h4>
-                    <p>$3000</p>
-                </article>
-            </section> <!-- .producto -->
+    <div class="container primary-container">
+        <main class="main">
+            
+            <h2 class="title">Productos de oferta</h2>
+            
+            <div class="grid">
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_1.jpg" alt="imagen de producto">
+                        </div>
+                        <h4>Hoodie</h4>
+                        <p>$1350</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+    
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_2.jpg" alt="imagen de producto">
+                        </div>
+                        <h4>Zapatilla</h4>
+                        <p>$500</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+    
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_3.jpg" alt="imagen de producto">
+                        </div>
+                        <h4>Gorra de lana</h4>
+                        <p>$350</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+    
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_4.jpg" alt="imagen de producto">
+                        </div>
+                        <h4>Almohada</h4>
+                        <p>$150</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+    
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_5.webp" alt="imagen de producto">
+                        </div>
+                        <h4>Buzo</h4>
+                        <p>$1550</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+    
+                <section class="product">
+                    <h3>Producto</h3>
+                    <article class="product__info">
+                        <div class="product__image">
+                            <img class="image" src="img/product_6.png" alt="imagen de producto">
+                        </div>
+                        <h4>Vinilo</h4>
+                        <p>$3000</p>
+                        <input type="button" class="button" value="Comprar">
+                    </article>
+                </section> <!-- .product -->
+
+                <div class="product-graphic">
+                    <img class="graphic-shirt" src="img/grafic_1.jpg" alt="grafico producto">
+                </div>
+
+                <div class="product-graphic2">
+                    <img class="graphic-name" src="img/grafic_7.png" alt="grafico producto">
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="graphic-title">
+                <h2>Nuevos productos</h2>
+            </div>
+            <div class="graphics">
+                <div class="graphics__items">
+                    <img src="img/grafic_2.jpg" alt="grafico aside">
+                </div>
+                <div class="graphics__items">
+                    <img src="img/grafic_3.jpg" alt="grafico aside">
+                </div>
+                <div class="graphics__items">
+                    <img src="img/grafic_5.webp" alt="grafico aside">
+                </div>
+                <div class="graphics__items">
+                    <img src="img/grafic_6.webp" alt="grafico aside">
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="barra">
+                    <h2>Twenty Store</h2>
+                    
+                    <nav class="nav">
+                        <a href="#" class="nav__link">Store</a>
+                        <a href="https://www.twentyonepilots.com/" class="nav__link">Official Web</a>
+                        <a href="about-us.html" class="nav__link">About Us</a>
+                    </nav>
+                </div>
+            </div>
         </div>
-    </main>
-    <footer class="footer">
-        <h2>Derechos reservados a la banda de los tuentis</h2>
     </footer>
 </body>
 </html>
