@@ -1,0 +1,34 @@
+{
+    "productos": [
+        {
+            "id" : 1,
+            "nombre" : "Hoodie",
+            "costo" : "$1350"
+        },
+        {
+            "id" : 2,
+            "nombre" : "Zapatilla",
+            "costo" : "500"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Gorra",
+            "costo" : "350"
+        },
+        {
+            "id" : 4,
+            "nombre" : "Almohada",
+            "costo" : "150"
+        },
+        {
+            "id" : 5,
+            "nombre" : "Buzo",
+            "costo" : "1550"
+        },
+        {
+            "id" : 6,
+            "nombre" : "Vinilo",
+            "costo" : "3000"
+        }
+    ]
+}

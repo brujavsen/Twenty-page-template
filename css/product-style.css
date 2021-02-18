@@ -1,0 +1,18 @@
+:root {
+    --font-primary: 'Raleway', monospace, Arial, fantasy;
+    --font-secondary: 'Dancing Script', monospace, Arial, fantasy;
+    --font-hero: 'Oswald', sans-serif;
+
+    --color-primary: #e7e30f;
+    --color-primaryObscure: #a09d00;
+    --color-secondary: #da1943;
+    --black: #000000;
+    --white: #FFFFFF;
+    --gray: #777777;
+}
+
+/* Producto */
+.main {
+    display: flex;
+    flex-direction: column;
+}
